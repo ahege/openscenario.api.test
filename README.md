@@ -78,7 +78,7 @@ $ sudo apt install uuid-dev
 ```
 * Change your current directory to `cpp/build/generateLinux` and execute:
 ```bash
-$ ./generateLinux.sh Release make
+$ ./generate_Linux.sh Release make
 ```
 * This creates all necessary makefiles for building the openSCENARIO library as shared library and starts the compilation process by executing `make -j8` starting 8 build threads. If you have 8 GB then change the make command to `make` only as described above in the paragraph **"System requirements"**.
 * The general call to the script above is `./generateLinux.sh [Release|Debug] [static] [make]`.
